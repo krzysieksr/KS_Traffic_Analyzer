@@ -1,0 +1,47 @@
+<!-- The DTD required for the XML demonstration program xlrd.XML -->
+
+<!ELEMENT workbook (sheet*)>
+
+<!ELEMENT sheet (name, row*)>
+
+<!ELEMENT name (#PCDATA)>
+
+<!ELEMENT row (col*)>
+<!ATTLIST row number CDATA #REQUIRED>
+
+<!ELEMENT col (data, format?)>
+<!ATTLIST col number CDATA #REQUIRED>
+
+<!ELEMENT data (#PCDATA)>
+
+<!ELEMENT format (font, background?, border?, format_string?)>
+<!ATTLIST format wrap (true|false) "false">
+<!ATTLIST format align 
+(general|left|centre|right|fill|justify) "general">
+<!ATTLIST format valign (top|centre|bottom) "bottom">
+<!ATTLIST format orientation 
+(horizontal|vertical|up90|down90) "horizontal">
+
+<!ELEMENT font EMPTY>
+<!ATTLIST font name CDATA #REQUIRED>
+<!ATTLIST font point_size CDATA #REQUIRED>
+<!ATTLIST font bold_weight CDATA #REQUIRED>
+<!ATTLIST font italic (true|false) #REQUIRED>
+<!ATTLIST font underline CDATA #REQUIRED>
+<!ATTLIST font colour CDATA #REQUIRED>
+<!ATTLIST font script (normal|super|sub) "normal">
+
+<!ELEMENT border EMPTY>
+<!ATTLIST border top    CDATA "none">
+<!ATTLIST border bottom CDATA "none">
+<!ATTLIST border left   CDATA "none">
+<!ATTLIST border right  CDATA "none">
+
+
+<!ELEMENT background EMPTY>
+<!ATTLIST background colour CDATA "default background">
+<!ATTLIST background pattern CDATA "none">
+
+
+<!ELEMENT format_string EMPTY>
+<!ATTLIST format string CDATA "">

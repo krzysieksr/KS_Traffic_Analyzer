@@ -1,0 +1,10 @@
+(jde-project-file-version "1.0")
+
+(jde-set-variables
+ '(jde-global-classpath (quote ("d:/home/jexcelapi" "d:/home/jexcelapi/jxl.jar")))
+; '(jde-jdb-key-bindings (quote (("[?]" . jde-debug-step-over) ("[?]" . jde-debug-step-into) ("[? ?]" . jde-debug-step-out) ("[? ?]" . jde-debug-cont) ("[? ?]" . jde-debug-run) ("[?]" . jde-debug-toggle-breakpoint) ("[? ?]" . jde-debug-up) ("[? ?]" . jde-debug-down))))
+ '(jde-build-function (quote (jde-ant-build)))
+; '(jde-db-option-vm-args (quote ("arg1 arg2 arg3")))
+ '(jde-sourcepath (quote ("d:/home/jexcelapi" "d:/home/jexcelapi/src"))))
+
+
