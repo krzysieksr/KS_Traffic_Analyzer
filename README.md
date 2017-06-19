@@ -4,9 +4,12 @@ KS Traffic Analyzer is the application for traffic parameters count. It can coun
 
 How to use (Windows):
 
-1. Add to “Path” in your systems environment variables the path to the contents of folder “ffmpeg”.
+1. Add to â€œPathâ€ in your systems environment variables the path to the contents of folder â€œffmpegâ€.
 2. Run the application KS Traffic Analyzer.
-3. Open a video file. You can load the video “road_traffic.avi” included in sample folder.
+3. Open a video file. You can load the video â€œroad_traffic.aviâ€ included in sample folder.
 4. Choose a directory, where will be written results of the programme work.
-5. Draw a counting and a speed lines. They must be at the same road side. It should be done like on “KS_screen.png”.
-6. Click “Play” button and watch as the programme process the video!
+5. Draw a counting and a speed lines. They must be at the same road side. It should be done like on â€œKS_screen.pngâ€.
+6. Click â€œPlayâ€ button and watch as the programme process the video!
+
+Please find below link to a short video presentation shows work of application:
+ https://www.youtube.com/watch?v=mNCbr4YF5bQ
